@@ -18,7 +18,6 @@ async function fetchApi() {
   //return promise object in readable stream
   // to handle this await is used.
   try {
-
     let res = await fetch("https://restcountries.com/v3.1/all");
     //after converting in Json Format it returns again Promise object
     //to handle this await is used.
@@ -62,12 +61,11 @@ async function fetchApi() {
       </div>
       `;
     }
-  } 
-  //catch-block:-
-  catch (error) {
+  } catch (error) {
+    //catch-block:-
     console.log(error.message);
   }
-} 
+}
 //----------------------------------------------------------------
 //openweather api function:-
 

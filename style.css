@@ -36,6 +36,22 @@ nav {
   background-color: lightgrey;
 }
 
+.card-title {
+  font-weight: bolder;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+  background-color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.card-body {
+  background-color: lightgray;
+}
+
 #temp-btn {
   position: relative;
   left: 70px;
