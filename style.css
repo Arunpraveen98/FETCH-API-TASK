@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:whitesmoke;
+    text-shadow: 2px 2px 3px navajowhite;
+}
+
+.temp-data {
+  border: 1px solid black;
+  width: 5cm;
+  height: 30px;
+  text-align: justify;
+  margin: 10px;
+}
+
+.card-group {
+  margin: 7px;
+  box-shadow: 4px 3px 5px lightslategray;
+}
+
+#flag-img {
+  width: 100%;
+  height: 6cm;
+}
+
+.card-header {
+  text-align: center;
+  background-color: lightgrey;
+}
+
+.content {
+  background-color: lightcyan;
+}
+
+#temp-btn {
+  position: relative;
+  left: 70px;
+  margin-bottom: 5px;
+}
