@@ -53,6 +53,7 @@ async function fetchApi() {
         <h5 class="card-title content">REGION : ${countryregion}</h5>
         <h5 class="card-title content">CODE : ${countrycode}</h5>
         <button type="button" id="temp-btn" class="btn btn-primary" onclick=openWeather(${latitude},${longitude})>Click for weather</button>
+     
       </div>
       </div>
       </div>
@@ -78,7 +79,7 @@ async function openWeather(latitude, longitude) {
     var ans = result.main.temp;
     var ans2 = document.getElementById("footer");
     ans2.innerHTML = "";
-    ans2.append(`COUNTRY-WEATHER ⏩${ans}⏪`);
+    ans2.innerHTML = `COUNTRY-WEATHER ⏩${ans}⏪`;
   } catch (error) {
     console.log(error.message);
   }

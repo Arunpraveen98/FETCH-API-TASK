@@ -18,7 +18,11 @@ nav {
   padding-top: 9px;
   font-size: 1rem;
   font-weight: bold;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
+  background-color: rgb(56, 56, 56);
+  position: fixed;
+  right: 0;
+  padding: 5px;
 }
 
 .card-group {
